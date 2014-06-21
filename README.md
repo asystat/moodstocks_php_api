@@ -13,7 +13,7 @@ $mm=MoodstocksManager::getInstance();
 `$mm->ms_echo();`
 
 ##Add a new image to moodstocks
-`$mm->ms_addimage("../userdata/img/37yFWIf1.jpg","image_id");`
+`$mm->ms_addimage("relative/path/to/file/myimage.jpg","image_id");`
 
 ##Enable image for offline sync
 `$mm->ms_enableoffline("myid");`
