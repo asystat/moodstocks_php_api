@@ -9,11 +9,11 @@ Example:
 
 $mm=MoodstocksManager::getInstance();
 
-//Echo the api to asure authentication
-$mm->ms_echo(); 
+##Echo the api to asure authentication
+`$mm->ms_echo();`
 
-//Add a new image to moodstocks
-$mm->ms_addimage("../userdata/img/37yFWIf1.jpg","image_id"); //
+##Add a new image to moodstocks
+`$mm->ms_addimage("../userdata/img/37yFWIf1.jpg","image_id");`
 
-//Enable image for offline sync
-$mm->ms_enableoffline("myid");
+##Enable image for offline sync
+`$mm->ms_enableoffline("myid");`
